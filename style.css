@@ -46,11 +46,9 @@ nav{
 .search input{
     width: 100%;
     border: none;
+    outline: none;
     background-color: rgb(239,239,239);
 }
-/* .search input::selection{
-    border: none;
-} */
 .content{
     display: flex;
     float: right;
@@ -72,16 +70,17 @@ nav{
 }
 .compass-img{
     position: relative;
-    top: 10px;
-    height: 35px;
+    top: 15px;
+    height: 30px;
 }
 .like-img{
-    height: 35px;
-    position: relative;
-    top: 10px;
-}
-.pofile-img{
     height: 30px;
+    position: relative;
+    top: 15px;
+}
+.profile-nav{
+    margin-top: 8px;
+    height: 45px;
 }
 .status{
     border: 1px solid black;
@@ -131,6 +130,23 @@ nav{
 .foot{
     border: 1px solid black;
     height: 60px;
+    padding: 12px;
+}
+.like-icon{
+    height: 30px;
+    padding-top: 3px;
+}
+.cmt-icon{
+    height: 27px;
+    margin-left: 10px;
+}
+.share-icon{
+    height: 25px;
+    margin-left: 10px;
+}
+.bookmark-icon{
+    height: 30px;
+    padding-top: 3px;
 }
 .count-likes{
     border: 1px solid black;
